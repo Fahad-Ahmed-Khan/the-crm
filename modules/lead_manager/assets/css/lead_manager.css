@@ -1,0 +1,25 @@
+/* 
+.lead_manager .nav-tabs>li>a, .lead_manager .tab-content{
+
+     font-size: 14px; 
+}
+.lead_manager .top-lead-menu .nav-tabs {
+    border-top: 0;
+    margin-top: 10px;
+}
+.lead_manager .text-danger{
+	font-size: 13px;
+}
+@media (min-width: 768px){
+	.body.app.admin.lead_manager {
+		font-size: 21px;
+	}
+} */
+
+.side_menu_lm_menu_icon {
+    width: 133px;
+}
+.lm_apitable td{
+    max-width: 300px;
+    word-wrap: break-word;
+}

@@ -1,0 +1,137 @@
+<?php
+$lang['lead_manager']                              = '主幹事';
+$lang['lm_customer_name']                          = '顧客名';
+$lang['lm_customer_email']                         = '顧客の電子メール';
+$lang['lm_staff_name']                             = 'スタッフ名';
+$lang['lm_created_date']                           = '作成日';
+$lang['lm_zoom_meeting']                           = 'ズームミーティング';
+$lang['lm_is_client']                              = '顧客/リード';
+$lang['lm_status']                                 = '状態';
+$lang['lm_remark']                                 = '述べる';
+$lang['lead_manager_client']                       = 'お客様';
+$lang['lm_client']                                 = 'お客様';
+$lang['lm_lead']                                   = '鉛';
+$lang['lead_manager_dashboard']                    = 'ダッシュボード';
+$lang['lead_manager_lead']                	       = 'リード';
+$lang['lead_manager_dt_connect']                   = '主幹事';
+$lang['lead_manger_activity']                      = '活動記録';
+$lang['lead_manger_audio_call']                    = 'オーディオコール';
+$lang['lead_manger_video_call']                    = 'ビデオ通話';
+$lang['lead_manger_sms']                  	       = 'SMS';
+$lang['lead_manager_sms_modal_title']              = 'SMSの宛先：';
+$lang['lead_manager_message_data']               	= 'メッセージ';
+$lang['lead_manager_bulk_sms']          		   = 'バルクSMS';
+$lang['zoom_meeting_duration']          	    	= 'ミーティング時間（分）';
+$lang['lead_name']          	                	= '名前';
+$lang['meeting_date']          	                 	= 'ミーティング開始日';
+$lang['meeting_join_link']          	        	= 'リンクに参加';
+$lang['meeting_start_link']          		        = 'リンクを開始';
+$lang['zoom_meeting_agenda']          	         	= '会議の議題';
+$lang['lead_manager_zoom_meetings']          		= 'ミーティング';
+$lang['zoom_meeting_options']          		        = 'ズーム会議オプション';
+$lang['lead_manager_zoom_description']              = '説明';
+$lang['allow_participants_to_join_anytime']         = '参加者がいつでも参加できるようにする';
+
+$lang['mute_participants_upon_entry']                                                   = 'エントリー時に参加者をミュートする';
+$lang['automatically_record_meeting_on_the_local_computer']                             = 'ローカルコンピュータで会議を自動的に記録する';
+$lang['approve_or_block_entry_for_users_from_specific_countries/regions']              = '特定の国/地域のユーザーのエントリを承認またはブロックします';
+
+$lang['lead_manger_all']                  				= '全て';
+$lang['lead_manger_activity_audio']                  	= '通話の詳細';
+$lang['lead_manger_activity_sms']                  		= 'SMS';
+$lang['lead_manger_activity_recordings']                = '録音';
+$lang['lead_manger_call_start_time']                    = '通話開始時間';
+$lang['lead_manger_call_end_time']                      = '通話終了時間';
+$lang['lead_manger_call_duration']                      = '通話時間';
+$lang['lead_manger_permission_audio_call']              = 'オーディオコール';
+$lang['lead_manger_permission_video_call']              = 'ビデオ通話';
+$lang['lead_manger_permission_sms']                     = 'SMSを送信';
+$lang['lead_manger_no_permission']                      = '無許可！';
+$lang['lead_manager_twilio_number_not_assigned']        = 'Twilio番号は割り当てられていません！';
+$lang['lead_manger_dt_follow_up']                       = '次のフォローアップ';
+$lang['lead_manger_dt_follow_up_yes']                   = 'はい';
+$lang['lead_manger_dt_follow_up_no']                    = 'いいえ';
+$lang['lead_manger_call_direction_title']               = '方向';
+$lang['lead_manger_call_recording_title']               = '記録';
+
+# 16-11-2021
+
+$lang['lead_manager_lead_chats']                	   = 'SMS';
+$lang['manage_leads_heading']                	       = 'リードを管理する';
+$lang['lead_manager_period_year']                	   = '年';
+$lang['lead_manager_period_month']                	   = '月';
+$lang['lead_manager_conversation_serch_cont']          = '連絡先を検索...';
+$lang['lm_module_activation_heading']                  = 'リードマネージャーモジュールのアクティベーション';
+$lang['lm_module_not_register_alert']                  = 'モジュールが登録されていません！';
+
+# 13-01-2020
+
+$lang['lead_manger_permission_email']               = 'Eメール';
+$lang['lead_manager_lead_mailbox']                	= 'メールボックス';
+$lang['lm_mailbox_to_label']                	   	= 'に';
+$lang['lm_mailbox_cc_label']                	   	= 'CC';
+$lang['lm_mailbox_subject_label']                   = '主題';
+$lang['lm_mailbox_compose_label']                	= 'Eメールの作成';
+$lang['lm_mailbox_compose_li']                	   	= 'Eメールの作成';
+$lang['lm_mailbox_inbox_li']                	   	= '受信トレイ';
+$lang['lm_mailbox_sent_li']                	   	    = '送信済';
+$lang['lm_mailbox_draft_li']                	   	= '下書き';
+$lang['lm_mailbox_trash_li']                	   	= 'ごみ';
+$lang['lm_mailbox_setting_li']                	   	= '設定';
+$lang['lm_mailbox_inbox_title']                	   	= '受信トレイ';
+$lang['lm_mailbox_from']                	   	    = 'から';
+$lang['lm_mailbox_subject']                	   	    = '主題';
+$lang['lm_mailbox_attachments']                	    = '添付ファイル';
+$lang['lm_mailbox_date']                	   	    = '日にち';
+$lang['lm_mailbox_cofiguration_title']              = 'スタッフのメール設定';
+
+$lang['lm_mb_is_smtp_field']           		= 'SMTPです';
+$lang['lm_mb_smtp_enc_field']          		= 'SMTP暗号化';
+$lang['lm_mb_smtp_user_field']          	= 'SMTPユーザー名';
+$lang['lm_mb_smtp_password_field']          = 'SMTPパスワード';
+$lang['lm_mb_is_smtp_field_title']          = 'オンの場合、ここからメールが送信されます！';
+$lang['lm_mb_smtp_server_field']            = 'SMTPサーバーアドレス';
+
+$lang['lm_mb_is_imap_field']           		= 'IMAPですか';
+$lang['lm_mb_imap_enc_field']          		= 'IMAP暗号化';
+$lang['lm_mb_imap_user_field']          	= 'IMAPユーザー名';
+$lang['lm_mb_imap_password_field']          = 'IMAPパスワード';
+$lang['lm_mb_is_imap_field_title']          = 'オンの場合、ここからメールを受信します！';
+$lang['lm_mb_imap_server_field']            = 'IMAPサーバーアドレス';
+$lang['lm_alert_failed_to_update']          = '更新に失敗しました！';
+$lang['lm_alert_success_to_update']        	= '更新しました！';
+$lang['lm_mb_smtp_port_field']            	= 'SMTPポート';
+$lang['lm_mailbox_email_label']            	= 'Eメール';
+$lang['lm_mailbox_email_from_name']       	= '名前から ：';
+$lang['lm_mailbox_email_from_email']        = 'メールから：';
+$lang['lm_mailbox_email_subject']           = '主題 ：';
+$lang['lm_mailbox_email_message']           = 'メッセージ ：';
+$lang['lm_mailbox_email_forword']           = 'Forword';
+$lang['lm_mailbox_email_reply']            	= '返事';
+$lang['lm_mb_smtp_fromname']            	= 'SMTP名前から';
+
+$lang['lm_mb_bulk_update_success_alert_star']                    	= '好意的としてマークされました！';
+$lang['lm_mb_bulk_update_success_alert_unstar']            	        = '有利なものとしてマークされていません！';
+$lang['lm_mb_bulk_update_success_alert_bookmark']            	    = 'ブックマークとしてマークされました！';
+$lang['lm_mb_bulk_update_success_alert_unbookmark']            	    = 'ブックマークを削除しました！';
+$lang['lm_mb_bulk_update_success_alert_delete']            	        = 'ゴミ箱に移動しました！';
+$lang['lm_mb_bulk_delete_success_alert_']            	            = '行が削除されました！';
+$lang['lm_mb_send_btn']                                         	= '送信';
+$lang['lm_mb_draft_btn']                                         	= '下書きとして保存';
+$lang['lm_mb_bulk_update_danger_alert']                         	= '更新されていない！';
+$lang['lm_mb_mail_sent_success_alert']                          	= 'メール送信！';
+$lang['lm_mb_mail_sent_danger_alert']            	                = 'メールは送信されません！';
+$lang['lm_last_remark_th']                                      	= '最後のコメント';
+$lang['lm_remark_th']                                           	= '述べる';
+$lang['lm_follow_up_from_placeholder']                          	= 'フォローアップから';
+$lang['lm_follow_up_to_placeholder']            	                = 'フォローアップするには';
+$lang['lm_mb_smtp_config_heading']                                 	= '送信メール（SMTP）';
+$lang['lm_mb_imap_config_heading']                                 	= '受信メール（IMAP）';
+$lang['lm_back_to_get']            	                                = '受信トレイに戻る';
+$lang['lm_back_to_sending']                                      	= '送信に戻る';
+$lang['lm_back_to_draft']            	                            = 'ドラフトに戻る';
+$lang['lm_back_to_trash']            	                            = 'ゴミ箱に戻る';
+$lang['lm_twilio_number_space_error']                            	= 'twilioの電話番号にスペースを入れないでください！';
+$lang['lm_twilio_number_numeric_error']                          	= 'twilioの電話番号に文字を使用することはできません。';
+$lang['lm_alert_no_row_effected']            	                    = '変更は更新する必要はありません！';
+$lang['lm_mailbox_to']            	                                = 'に';

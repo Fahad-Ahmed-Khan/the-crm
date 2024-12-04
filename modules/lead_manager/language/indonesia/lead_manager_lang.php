@@ -1,0 +1,137 @@
+<?php
+$lang['lead_manager']                              = 'Manajer Utama';
+$lang['lm_customer_name']                          = 'Nama Pelanggan';
+$lang['lm_customer_email']                         = 'Surel pelanggan';
+$lang['lm_staff_name']                             = 'Nama staf';
+$lang['lm_created_date']                           = 'Tanggal Dibuat';
+$lang['lm_zoom_meeting']                           = 'Rapat Zoom';
+$lang['lm_is_client']                              = 'Pelanggan/Pemimpin';
+$lang['lm_status']                                 = 'Status';
+$lang['lm_remark']                                 = 'Komentar';
+$lang['lead_manager_client']                       = 'pelanggan';
+$lang['lm_client']                                 = 'Pelanggan';
+$lang['lm_lead']                                   = 'Memimpin';
+$lang['lead_manager_dashboard']                    = 'Dasbor';
+$lang['lead_manager_lead']                	       = 'Memimpin';
+$lang['lead_manager_dt_connect']                   = 'Manajer Utama';
+$lang['lead_manger_activity']                      = 'Log aktivitas';
+$lang['lead_manger_audio_call']                    = 'Panggilan Audio';
+$lang['lead_manger_video_call']                    = 'Panggilan video';
+$lang['lead_manger_sms']                  	       = 'SMS';
+$lang['lead_manager_sms_modal_title']              = 'SMS Ke:';
+$lang['lead_manager_message_data']               	= 'Pesan';
+$lang['lead_manager_bulk_sms']          		   = 'SMS massal';
+$lang['zoom_meeting_duration']          	    	= 'Durasi Rapat (Menit)';
+$lang['lead_name']          	                	= 'Nama';
+$lang['meeting_date']          	                 	= 'Tanggal Mulai Rapat';
+$lang['meeting_join_link']          	        	= 'Gabung Tautan';
+$lang['meeting_start_link']          		        = 'Mulai Tautan';
+$lang['zoom_meeting_agenda']          	         	= 'Agenda pertemuan';
+$lang['lead_manager_zoom_meetings']          		= 'Rapat';
+$lang['zoom_meeting_options']          		        = 'Opsi Rapat Zoom';
+$lang['lead_manager_zoom_description']              = 'Keterangan';
+$lang['allow_participants_to_join_anytime']         = 'Izinkan Peserta Untuk Bergabung Kapan Saja';
+
+$lang['mute_participants_upon_entry']                                                   = 'Bisukan Peserta Saat Masuk';
+$lang['automatically_record_meeting_on_the_local_computer']                             = 'Secara Otomatis Merekam Rapat di Komputer Lokal';
+$lang['approve_or_block_entry_for_users_from_specific_countries/regions']              = 'Setujui atau blokir entri untuk pengguna dari negara/wilayah tertentu';
+
+$lang['lead_manger_all']                  				= 'Semua';
+$lang['lead_manger_activity_audio']                  	= 'Rincian panggilan';
+$lang['lead_manger_activity_sms']                  		= 'SMS';
+$lang['lead_manger_activity_recordings']                = 'Rekaman';
+$lang['lead_manger_call_start_time']                    = 'Waktu Mulai Panggilan';
+$lang['lead_manger_call_end_time']                      = 'Waktu Berakhir Panggilan';
+$lang['lead_manger_call_duration']                      = 'Durasi panggilan';
+$lang['lead_manger_permission_audio_call']              = 'Panggilan Audio';
+$lang['lead_manger_permission_video_call']              = 'Panggilan video';
+$lang['lead_manger_permission_sms']                     = 'Kirim SMS';
+$lang['lead_manger_no_permission']                      = 'Tidak ada izin!';
+$lang['lead_manager_twilio_number_not_assigned']        = 'Nomor Twilio tidak diberikan!';
+$lang['lead_manger_dt_follow_up']                       = 'Tindak lanjut selanjutnya';
+$lang['lead_manger_dt_follow_up_yes']                   = 'Ya';
+$lang['lead_manger_dt_follow_up_no']                    = 'Tidak';
+$lang['lead_manger_call_direction_title']               = 'Arah';
+$lang['lead_manger_call_recording_title']               = 'Tercatat';
+
+# 16-11-2021
+
+$lang['lead_manager_lead_chats']                	   = 'SMS';
+$lang['manage_leads_heading']                	       = 'Kelola Prospek';
+$lang['lead_manager_period_year']                	   = 'Bertahun-tahun';
+$lang['lead_manager_period_month']                	   = 'Bulan';
+$lang['lead_manager_conversation_serch_cont']          = 'Cari kontak...';
+$lang['lm_module_activation_heading']                  = 'Aktivasi Modul Manajer Utama';
+$lang['lm_module_not_register_alert']                  = 'Modul tidak terdaftar!';
+
+# 13-01-2020
+
+$lang['lead_manger_permission_email']               = 'Surel';
+$lang['lead_manager_lead_mailbox']                	= 'kotak surat';
+$lang['lm_mailbox_to_label']                	   	= 'Ke';
+$lang['lm_mailbox_cc_label']                	   	= 'CC';
+$lang['lm_mailbox_subject_label']                   = 'Subjek';
+$lang['lm_mailbox_compose_label']                	= 'Menulis email';
+$lang['lm_mailbox_compose_li']                	   	= 'Menulis email';
+$lang['lm_mailbox_inbox_li']                	   	= 'kotak masuk';
+$lang['lm_mailbox_sent_li']                	   	    = 'Terkirim';
+$lang['lm_mailbox_draft_li']                	   	= 'Konsep';
+$lang['lm_mailbox_trash_li']                	   	= 'Sampah';
+$lang['lm_mailbox_setting_li']                	   	= 'Pengaturan';
+$lang['lm_mailbox_inbox_title']                	   	= 'kotak masuk';
+$lang['lm_mailbox_from']                	   	    = 'Dari';
+$lang['lm_mailbox_subject']                	   	    = 'Subjek';
+$lang['lm_mailbox_attachments']                	    = 'lampiran';
+$lang['lm_mailbox_date']                	   	    = 'Tanggal';
+$lang['lm_mailbox_cofiguration_title']              = 'Pengaturan Surat Staf';
+
+$lang['lm_mb_is_smtp_field']           		= 'Apakah SMTP?';
+$lang['lm_mb_smtp_enc_field']          		= 'Enkripsi SMTP';
+$lang['lm_mb_smtp_user_field']          	= 'Nama pengguna SMTP';
+$lang['lm_mb_smtp_password_field']          = 'Kata Sandi SMTP';
+$lang['lm_mb_is_smtp_field_title']          = 'jika AKTIF, itu akan mengirim email dari sini!';
+$lang['lm_mb_smtp_server_field']            = 'Alamat Server SMTP';
+
+$lang['lm_mb_is_imap_field']           		= 'Apakah IMAP?';
+$lang['lm_mb_imap_enc_field']          		= 'Enkripsi IMAP';
+$lang['lm_mb_imap_user_field']          	= 'Nama pengguna IMAP';
+$lang['lm_mb_imap_password_field']          = 'Kata Sandi IMAP';
+$lang['lm_mb_is_imap_field_title']          = 'jika AKTIF, itu akan menerima email dari sini!';
+$lang['lm_mb_imap_server_field']            = 'Alamat Server IMAP';
+$lang['lm_alert_failed_to_update']          = 'Gagal memperbarui!';
+$lang['lm_alert_success_to_update']        	= 'Diperbarui!';
+$lang['lm_mb_smtp_port_field']            	= 'Pelabuhan SMTP';
+$lang['lm_mailbox_email_label']            	= 'Surel';
+$lang['lm_mailbox_email_from_name']       	= 'Dari nama :';
+$lang['lm_mailbox_email_from_email']        = 'Dari email :';
+$lang['lm_mailbox_email_subject']           = 'Subjek :';
+$lang['lm_mailbox_email_message']           = 'Pesan :';
+$lang['lm_mailbox_email_forword']           = 'kata depan';
+$lang['lm_mailbox_email_reply']            	= 'Membalas';
+$lang['lm_mb_smtp_fromname']            	= 'SMTP Dari nama';
+
+$lang['lm_mb_bulk_update_success_alert_star']                    	= 'Ditandai sebagai menguntungkan!';
+$lang['lm_mb_bulk_update_success_alert_unstar']            	        = 'Tidak ditandai sebagai menguntungkan!';
+$lang['lm_mb_bulk_update_success_alert_bookmark']            	    = 'Ditandai sebagai penanda!';
+$lang['lm_mb_bulk_update_success_alert_unbookmark']            	    = 'Penanda dihapus!';
+$lang['lm_mb_bulk_update_success_alert_delete']            	        = 'Dipindahkan ke tempat sampah!';
+$lang['lm_mb_bulk_delete_success_alert_']            	            = 'Baris dihapus!';
+$lang['lm_mb_send_btn']                                         	= 'Kirim';
+$lang['lm_mb_draft_btn']                                         	= 'Simpan sebagai draf';
+$lang['lm_mb_bulk_update_danger_alert']                         	= 'Tidak diperbarui!';
+$lang['lm_mb_mail_sent_success_alert']                          	= 'Email terkirim!';
+$lang['lm_mb_mail_sent_danger_alert']            	                = 'Email tidak terkirim!';
+$lang['lm_last_remark_th']                                      	= 'Catatan Terakhir';
+$lang['lm_remark_th']                                           	= 'Komentar';
+$lang['lm_follow_up_from_placeholder']                          	= 'Dari Tindak lanjut';
+$lang['lm_follow_up_to_placeholder']            	                = 'Untuk Menindaklanjuti';
+$lang['lm_mb_smtp_config_heading']                                 	= 'Email Keluar (SMTP)';
+$lang['lm_mb_imap_config_heading']                                 	= 'Email Masuk (IMAP)';
+$lang['lm_back_to_get']            	                                = 'Kembali ke kotak masuk';
+$lang['lm_back_to_sending']                                      	= 'Kembali ke Terkirim';
+$lang['lm_back_to_draft']            	                            = 'Kembali ke Draf';
+$lang['lm_back_to_trash']            	                            = 'Kembali ke Sampah';
+$lang['lm_twilio_number_space_error']                            	= 'Ruang tidak diperbolehkan di nomor telepon twilio!';
+$lang['lm_twilio_number_numeric_error']                          	= 'Karakter tidak diperbolehkan di nomor telepon twilio!';
+$lang['lm_alert_no_row_effected']            	                    = 'Tidak ada perubahan yang harus diperbarui!';
+$lang['lm_mailbox_to']            	                                = 'Ke';

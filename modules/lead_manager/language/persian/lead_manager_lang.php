@@ -1,0 +1,137 @@
+<?php
+$lang['lead_manager']                              = 'مدیر ارشد';
+$lang['lm_customer_name']                          = 'نام مشتری';
+$lang['lm_customer_email']                         = 'ایمیل مشتری';
+$lang['lm_staff_name']                             = 'نام کارکنان';
+$lang['lm_created_date']                           = 'تاریخ ایجاد';
+$lang['lm_zoom_meeting']                           = 'جلسه بزرگنمایی';
+$lang['lm_is_client']                              = 'مشتری / رهبر';
+$lang['lm_status']                                 = 'وضعیت';
+$lang['lm_remark']                                 = 'تذکر دهید';
+$lang['lead_manager_client']                       = 'مشتریان';
+$lang['lm_client']                                 = 'مشتری';
+$lang['lm_lead']                                   = 'رهبری';
+$lang['lead_manager_dashboard']                    = 'داشبورد';
+$lang['lead_manager_lead']                	       = 'منجر می شود';
+$lang['lead_manager_dt_connect']                   = 'مدیر ارشد';
+$lang['lead_manger_activity']                      = 'گزارش فعالیت';
+$lang['lead_manger_audio_call']                    = 'تماس صوتی';
+$lang['lead_manger_video_call']                    = 'تماس تصویری';
+$lang['lead_manger_sms']                  	       = 'پیامک';
+$lang['lead_manager_sms_modal_title']              = 'پیامک به:';
+$lang['lead_manager_message_data']               	= 'پیام';
+$lang['lead_manager_bulk_sms']          		   = 'پیامک انبوه';
+$lang['zoom_meeting_duration']          	    	= 'مدت جلسه (دقیقه)';
+$lang['lead_name']          	                	= 'نام';
+$lang['meeting_date']          	                 	= 'تاریخ شروع جلسه';
+$lang['meeting_join_link']          	        	= 'لینک عضویت';
+$lang['meeting_start_link']          		        = 'لینک شروع';
+$lang['zoom_meeting_agenda']          	         	= 'برنامهی جلسه';
+$lang['lead_manager_zoom_meetings']          		= 'جلسات';
+$lang['zoom_meeting_options']          		        = 'گزینه های جلسه بزرگنمایی';
+$lang['lead_manager_zoom_description']              = 'شرح';
+$lang['allow_participants_to_join_anytime']         = 'به شرکت کنندگان اجازه دهید تا در هر زمان بپیوندند';
+
+$lang['mute_participants_upon_entry']                                                   = 'نادیده گرفتن شرکت کنندگان پس از ورود';
+$lang['automatically_record_meeting_on_the_local_computer']                             = 'به طور خودکار جلسه را در رایانه محلی ضبط کنید';
+$lang['approve_or_block_entry_for_users_from_specific_countries/regions']              = 'ورود کاربران از کشورها/مناطق خاص را تأیید یا مسدود کنید';
+
+$lang['lead_manger_all']                  				= 'همه';
+$lang['lead_manger_activity_audio']                  	= 'جزئیات تماس';
+$lang['lead_manger_activity_sms']                  		= 'پیامک';
+$lang['lead_manger_activity_recordings']                = 'موارد ضبط شده';
+$lang['lead_manger_call_start_time']                    = 'زمان شروع تماس';
+$lang['lead_manger_call_end_time']                      = 'زمان پایان تماس';
+$lang['lead_manger_call_duration']                      = 'مدت زمان تماس';
+$lang['lead_manger_permission_audio_call']              = 'تماس صوتی';
+$lang['lead_manger_permission_video_call']              = 'تماس تصویری';
+$lang['lead_manger_permission_sms']                     = 'ارسال پیامک';
+$lang['lead_manger_no_permission']                      = 'بدون مجوز و اجازه!';
+$lang['lead_manager_twilio_number_not_assigned']        = 'شماره Twilio اختصاص داده نشده است!';
+$lang['lead_manger_dt_follow_up']                       = 'پیگیری بعدی';
+$lang['lead_manger_dt_follow_up_yes']                   = 'آره';
+$lang['lead_manger_dt_follow_up_no']                    = 'خیر';
+$lang['lead_manger_call_direction_title']               = 'جهت';
+$lang['lead_manger_call_recording_title']               = 'ثبت شده';
+
+# 16-11-2021
+
+$lang['lead_manager_lead_chats']                	   = 'پیامک';
+$lang['manage_leads_heading']                	       = 'سرنخ ها را مدیریت کنید';
+$lang['lead_manager_period_year']                	   = 'سال ها';
+$lang['lead_manager_period_month']                	   = 'ماه ها';
+$lang['lead_manager_conversation_serch_cont']          = 'جستجوی مخاطبین...';
+$lang['lm_module_activation_heading']                  = 'فعال سازی ماژول مدیر ارشد';
+$lang['lm_module_not_register_alert']                  = 'ماژول ثبت نشده است!';
+
+# 13-01-2020
+
+$lang['lead_manger_permission_email']               = 'پست الکترونیک';
+$lang['lead_manager_lead_mailbox']                	= 'صندوق پستی';
+$lang['lm_mailbox_to_label']                	   	= 'به';
+$lang['lm_mailbox_cc_label']                	   	= 'CC';
+$lang['lm_mailbox_subject_label']                   = 'موضوع';
+$lang['lm_mailbox_compose_label']                	= 'نوشتن ایمیل';
+$lang['lm_mailbox_compose_li']                	   	= 'نوشتن ایمیل';
+$lang['lm_mailbox_inbox_li']                	   	= 'صندوق ورودی';
+$lang['lm_mailbox_sent_li']                	   	    = 'ارسال شد';
+$lang['lm_mailbox_draft_li']                	   	= 'پیش نویس';
+$lang['lm_mailbox_trash_li']                	   	= 'زباله ها';
+$lang['lm_mailbox_setting_li']                	   	= 'تنظیمات';
+$lang['lm_mailbox_inbox_title']                	   	= 'صندوق ورودی';
+$lang['lm_mailbox_from']                	   	    = 'از جانب';
+$lang['lm_mailbox_subject']                	   	    = 'موضوع';
+$lang['lm_mailbox_attachments']                	    = 'پیوست ها';
+$lang['lm_mailbox_date']                	   	    = 'تاریخ';
+$lang['lm_mailbox_cofiguration_title']              = 'راه اندازی ایمیل کارکنان';
+
+$lang['lm_mb_is_smtp_field']           		= 'SMTP است';
+$lang['lm_mb_smtp_enc_field']          		= 'رمزگذاری SMTP';
+$lang['lm_mb_smtp_user_field']          	= 'نام کاربری SMTP';
+$lang['lm_mb_smtp_password_field']          = 'رمز عبور SMTP';
+$lang['lm_mb_is_smtp_field_title']          = 'اگر روشن باشد، از اینجا ایمیل می فرستد!';
+$lang['lm_mb_smtp_server_field']            = 'آدرس سرور SMTP';
+
+$lang['lm_mb_is_imap_field']           		= 'IMAP است';
+$lang['lm_mb_imap_enc_field']          		= 'رمزگذاری IMAP';
+$lang['lm_mb_imap_user_field']          	= 'نام کاربری IMAP';
+$lang['lm_mb_imap_password_field']          = 'رمز عبور IMAP';
+$lang['lm_mb_is_imap_field_title']          = 'اگر روشن باشد، از اینجا ایمیل دریافت می کند!';
+$lang['lm_mb_imap_server_field']            = 'آدرس سرور IMAP';
+$lang['lm_alert_failed_to_update']          = 'به روز رسانی نشد!';
+$lang['lm_alert_success_to_update']        	= 'به روز شد!';
+$lang['lm_mb_smtp_port_field']            	= 'پورت SMTP';
+$lang['lm_mailbox_email_label']            	= 'پست الکترونیک';
+$lang['lm_mailbox_email_from_name']       	= 'از نام :';
+$lang['lm_mailbox_email_from_email']        = 'از ایمیل :';
+$lang['lm_mailbox_email_subject']           = 'موضوع :';
+$lang['lm_mailbox_email_message']           = 'پیام:';
+$lang['lm_mailbox_email_forword']           = 'پیشگفتار';
+$lang['lm_mailbox_email_reply']            	= 'پاسخ';
+$lang['lm_mb_smtp_fromname']            	= 'SMTP از نام';
+
+$lang['lm_mb_bulk_update_success_alert_star']                    	= 'علامت گذاری شده به عنوان مطلوب!';
+$lang['lm_mb_bulk_update_success_alert_unstar']            	        = 'علامت مطلوب برداشته شد!';
+$lang['lm_mb_bulk_update_success_alert_bookmark']            	    = 'به عنوان نشانک علامت گذاری شد!';
+$lang['lm_mb_bulk_update_success_alert_unbookmark']            	    = 'نشانک حذف شد!';
+$lang['lm_mb_bulk_update_success_alert_delete']            	        = 'به سطل زباله منتقل شد!';
+$lang['lm_mb_bulk_delete_success_alert_']            	            = 'ردیف حذف شد!';
+$lang['lm_mb_send_btn']                                         	= 'ارسال';
+$lang['lm_mb_draft_btn']                                         	= 'ذخیره به عنوان پیش نویس';
+$lang['lm_mb_bulk_update_danger_alert']                         	= 'بروزرسانی نشده!';
+$lang['lm_mb_mail_sent_success_alert']                          	= 'ایمیل ارسال شد!';
+$lang['lm_mb_mail_sent_danger_alert']            	                = 'ایمیل ارسال نشد!';
+$lang['lm_last_remark_th']                                      	= 'آخرین اظهار نظر';
+$lang['lm_remark_th']                                           	= 'تذکر دهید';
+$lang['lm_follow_up_from_placeholder']                          	= 'از پیگیری';
+$lang['lm_follow_up_to_placeholder']            	                = 'برای پیگیری';
+$lang['lm_mb_smtp_config_heading']                                 	= 'ایمیل های خروجی (SMTP)';
+$lang['lm_mb_imap_config_heading']                                 	= 'ایمیل های ورودی (IMAP)';
+$lang['lm_back_to_get']            	                                = 'بازگشت به صندوق ورودی';
+$lang['lm_back_to_sending']                                      	= 'بازگشت به ارسال';
+$lang['lm_back_to_draft']            	                            = 'بازگشت به پیش نویس';
+$lang['lm_back_to_trash']            	                            = 'بازگشت به سطل زباله';
+$lang['lm_twilio_number_space_error']                            	= 'فضا در شماره تلفن twilio مجاز نیست!';
+$lang['lm_twilio_number_numeric_error']                          	= 'کاراکترها در شماره تلفن twilio مجاز نیستند!';
+$lang['lm_alert_no_row_effected']            	                    = 'هیچ تغییری نباید به روز شود!';
+$lang['lm_mailbox_to']            	                                = 'به';

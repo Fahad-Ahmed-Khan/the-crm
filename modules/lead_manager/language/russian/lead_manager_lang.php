@@ -1,0 +1,137 @@
+<?php
+$lang['lead_manager']                              = 'Ведущий менеджер';
+$lang['lm_customer_name']                          = 'Имя Клиента';
+$lang['lm_customer_email']                         = 'Электронная почта клиента';
+$lang['lm_staff_name']                             = 'Имя персонала';
+$lang['lm_created_date']                           = 'Дата создания';
+$lang['lm_zoom_meeting']                           = 'зум-встреча';
+$lang['lm_is_client']                              = 'Клиент/Ведущий';
+$lang['lm_status']                                 = 'Статус';
+$lang['lm_remark']                                 = 'Примечание';
+$lang['lead_manager_client']                       = 'Клиенты';
+$lang['lm_client']                                 = 'Покупатель';
+$lang['lm_lead']                                   = 'Вести';
+$lang['lead_manager_dashboard']                    = 'Приборная доска';
+$lang['lead_manager_lead']                	       = 'Ведет';
+$lang['lead_manager_dt_connect']                   = 'Ведущий менеджер';
+$lang['lead_manger_activity']                      = 'Журнал активности';
+$lang['lead_manger_audio_call']                    = 'Аудиовызов';
+$lang['lead_manger_video_call']                    = 'Видеозвонок';
+$lang['lead_manger_sms']                  	       = 'смс';
+$lang['lead_manager_sms_modal_title']              = 'СМС Кому:';
+$lang['lead_manager_message_data']               	= 'Сообщение';
+$lang['lead_manager_bulk_sms']          		   = 'Массовая рассылка СМС';
+$lang['zoom_meeting_duration']          	    	= 'Продолжительность встречи (минуты)';
+$lang['lead_name']          	                	= 'Имя';
+$lang['meeting_date']          	                 	= 'Дата начала встречи';
+$lang['meeting_join_link']          	        	= 'Присоединиться по ссылке';
+$lang['meeting_start_link']          		        = 'Стартовая ссылка';
+$lang['zoom_meeting_agenda']          	         	= 'Повестка дня встречи';
+$lang['lead_manager_zoom_meetings']          		= 'Встречи';
+$lang['zoom_meeting_options']          		        = 'Параметры конференции Zoom';
+$lang['lead_manager_zoom_description']              = 'Описание';
+$lang['allow_participants_to_join_anytime']         = 'Разрешить участникам присоединяться в любое время';
+
+$lang['mute_participants_upon_entry']                                                   = 'Отключить звук участников при входе';
+$lang['automatically_record_meeting_on_the_local_computer']                             = 'Автоматически записывать собрание на локальном компьютере';
+$lang['approve_or_block_entry_for_users_from_specific_countries/regions']              = 'Разрешить или заблокировать вход для пользователей из определенных стран/регионов';
+
+$lang['lead_manger_all']                  				= 'Все';
+$lang['lead_manger_activity_audio']                  	= 'Детали звонка';
+$lang['lead_manger_activity_sms']                  		= 'Смс';
+$lang['lead_manger_activity_recordings']                = 'Записи';
+$lang['lead_manger_call_start_time']                    = 'Время начала вызова';
+$lang['lead_manger_call_end_time']                      = 'Время окончания вызова';
+$lang['lead_manger_call_duration']                      = 'Длительность звонка';
+$lang['lead_manger_permission_audio_call']              = 'Аудиовызов';
+$lang['lead_manger_permission_video_call']              = 'Видеозвонок';
+$lang['lead_manger_permission_sms']                     = 'Отправить смс';
+$lang['lead_manger_no_permission']                      = 'Отсутствует разрешение!';
+$lang['lead_manager_twilio_number_not_assigned']        = 'Номер Twilio не выделен!';
+$lang['lead_manger_dt_follow_up']                       = 'Следующее';
+$lang['lead_manger_dt_follow_up_yes']                   = 'Да';
+$lang['lead_manger_dt_follow_up_no']                    = 'Нет';
+$lang['lead_manger_call_direction_title']               = 'Направление';
+$lang['lead_manger_call_recording_title']               = 'Записано';
+
+# 16-11-2021
+
+$lang['lead_manager_lead_chats']                	   = 'смс';
+$lang['manage_leads_heading']                	       = 'Управление потенциальными клиентами';
+$lang['lead_manager_period_year']                	   = 'Годы';
+$lang['lead_manager_period_month']                	   = 'Месяцы';
+$lang['lead_manager_conversation_serch_cont']          = 'Поиск контактов...';
+$lang['lm_module_activation_heading']                  = 'Активация модуля Lead Manager';
+$lang['lm_module_not_register_alert']                  = 'Модуль не зарегистрирован!';
+
+# 13-01-2020
+
+$lang['lead_manger_permission_email']               = 'Эл. адрес';
+$lang['lead_manager_lead_mailbox']                	= 'Почтовый ящик';
+$lang['lm_mailbox_to_label']                	   	= 'К';
+$lang['lm_mailbox_cc_label']                	   	= 'CC';
+$lang['lm_mailbox_subject_label']                   = 'Предмет';
+$lang['lm_mailbox_compose_label']                	= 'Написать письмо';
+$lang['lm_mailbox_compose_li']                	   	= 'Написать письмо';
+$lang['lm_mailbox_inbox_li']                	   	= 'Входящие';
+$lang['lm_mailbox_sent_li']                	   	    = 'Отправил';
+$lang['lm_mailbox_draft_li']                	   	= 'Черновик';
+$lang['lm_mailbox_trash_li']                	   	= 'Мусор';
+$lang['lm_mailbox_setting_li']                	   	= 'Параметр';
+$lang['lm_mailbox_inbox_title']                	   	= 'Входящие';
+$lang['lm_mailbox_from']                	   	    = 'Из';
+$lang['lm_mailbox_subject']                	   	    = 'Предмет';
+$lang['lm_mailbox_attachments']                	    = 'Вложения';
+$lang['lm_mailbox_date']                	   	    = 'Свидание';
+$lang['lm_mailbox_cofiguration_title']              = 'Настройка почты персонала';
+
+$lang['lm_mb_is_smtp_field']           		= 'SMTP';
+$lang['lm_mb_smtp_enc_field']          		= 'SMTP-шифрование';
+$lang['lm_mb_smtp_user_field']          	= 'Имя пользователя SMTP';
+$lang['lm_mb_smtp_password_field']          = 'SMTP-пароль';
+$lang['lm_mb_is_smtp_field_title']          = 'если включено, электронная почта будет отправлена ​​отсюда!';
+$lang['lm_mb_smtp_server_field']            = 'Адрес SMTP-сервера';
+
+$lang['lm_mb_is_imap_field']           		= 'IMAP';
+$lang['lm_mb_imap_enc_field']          		= 'IMAP-шифрование';
+$lang['lm_mb_imap_user_field']          	= 'Имя пользователя IMAP';
+$lang['lm_mb_imap_password_field']          = 'IMAP-пароль';
+$lang['lm_mb_is_imap_field_title']          = 'если ON, он будет получать электронную почту отсюда!';
+$lang['lm_mb_imap_server_field']            = 'Адрес IMAP-сервера';
+$lang['lm_alert_failed_to_update']          = 'Не удалось обновить!';
+$lang['lm_alert_success_to_update']        	= 'Обновлено!';
+$lang['lm_mb_smtp_port_field']            	= 'SMTP-порт';
+$lang['lm_mailbox_email_label']            	= 'Эл. адрес';
+$lang['lm_mailbox_email_from_name']       	= 'От имени :';
+$lang['lm_mailbox_email_from_email']        = 'Из электронной почты:';
+$lang['lm_mailbox_email_subject']           = 'Предмет :';
+$lang['lm_mailbox_email_message']           = 'Сообщение :';
+$lang['lm_mailbox_email_forword']           = 'Предисловие';
+$lang['lm_mailbox_email_reply']            	= 'Отвечать';
+$lang['lm_mb_smtp_fromname']            	= 'SMTP от имени';
+
+$lang['lm_mb_bulk_update_success_alert_star']                    	= 'Отмечено как благоприятное!';
+$lang['lm_mb_bulk_update_success_alert_unstar']            	        = 'Не отмечен как благоприятный!';
+$lang['lm_mb_bulk_update_success_alert_bookmark']            	    = 'Отмечено как закладка!';
+$lang['lm_mb_bulk_update_success_alert_unbookmark']            	    = 'Удалена закладка!';
+$lang['lm_mb_bulk_update_success_alert_delete']            	        = 'Перенесено в мусорку!';
+$lang['lm_mb_bulk_delete_success_alert_']            	            = 'Строка удалена!';
+$lang['lm_mb_send_btn']                                         	= 'Отправлять';
+$lang['lm_mb_draft_btn']                                         	= 'Сохранить как черновик';
+$lang['lm_mb_bulk_update_danger_alert']                         	= 'Не обновляется!';
+$lang['lm_mb_mail_sent_success_alert']                          	= 'Письмо отправлено!';
+$lang['lm_mb_mail_sent_danger_alert']            	                = 'Электронная почта не отправлена!';
+$lang['lm_last_remark_th']                                      	= 'Последнее замечание';
+$lang['lm_remark_th']                                           	= 'Примечание';
+$lang['lm_follow_up_from_placeholder']                          	= 'От продолжения';
+$lang['lm_follow_up_to_placeholder']            	                = 'Следить за';
+$lang['lm_mb_smtp_config_heading']                                 	= 'Исходящие письма (SMTP)';
+$lang['lm_mb_imap_config_heading']                                 	= 'Входящие письма (IMAP)';
+$lang['lm_back_to_get']            	                                = 'Назад в папку «Входящие»';
+$lang['lm_back_to_sending']                                      	= 'Назад к отправленным';
+$lang['lm_back_to_draft']            	                            = 'Вернуться к черновику';
+$lang['lm_back_to_trash']            	                            = 'Назад в корзину';
+$lang['lm_twilio_number_space_error']                            	= 'Пробел не допускается в номере телефона twilio!';
+$lang['lm_twilio_number_numeric_error']                          	= 'Использование символов в номере телефона twilio запрещено!';
+$lang['lm_alert_no_row_effected']            	                    = 'Никаких изменений не нужно обновлять!';
+$lang['lm_mailbox_to']            	                                = 'К';

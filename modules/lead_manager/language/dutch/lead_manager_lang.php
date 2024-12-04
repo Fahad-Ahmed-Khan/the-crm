@@ -1,0 +1,137 @@
+<?php
+$lang['lead_manager']                              = 'Hoofdmanager';
+$lang['lm_customer_name']                          = 'klantnaam';
+$lang['lm_customer_email']                         = 'Klanten email';
+$lang['lm_staff_name']                             = 'Naam personeel';
+$lang['lm_created_date']                           = 'Aanmaakdatum';
+$lang['lm_zoom_meeting']                           = 'Zoomvergadering';
+$lang['lm_is_client']                              = 'Klant/Lead:';
+$lang['lm_status']                                 = 'Toestand';
+$lang['lm_remark']                                 = 'Opmerking';
+$lang['lead_manager_client']                       = 'Klanten';
+$lang['lm_client']                                 = 'Klant';
+$lang['lm_lead']                                   = 'Lood';
+$lang['lead_manager_dashboard']                    = 'Dashboard';
+$lang['lead_manager_lead']                	       = 'Leidt';
+$lang['lead_manager_dt_connect']                   = 'Hoofdmanager';
+$lang['lead_manger_activity']                      = 'Activiteiten logboek';
+$lang['lead_manger_audio_call']                    = 'Audiogesprek';
+$lang['lead_manger_video_call']                    = 'Video-oproep';
+$lang['lead_manger_sms']                  	       = 'sms';
+$lang['lead_manager_sms_modal_title']              = 'SMS naar: ';
+$lang['lead_manager_message_data']               	= 'Bericht';
+$lang['lead_manager_bulk_sms']          		   = 'Bulk SMS';
+$lang['zoom_meeting_duration']          	    	= 'Duur van de vergadering (minuut)';
+$lang['lead_name']          	                	= 'Naam';
+$lang['meeting_date']          	                 	= 'Startdatum vergadering';
+$lang['meeting_join_link']          	        	= 'Word lid van Link';
+$lang['meeting_start_link']          		        = 'Startlink';
+$lang['zoom_meeting_agenda']          	         	= 'Vergadering agenda';
+$lang['lead_manager_zoom_meetings']          		= 'Vergaderingen';
+$lang['zoom_meeting_options']          		        = 'Zoom-vergaderopties';
+$lang['lead_manager_zoom_description']              = 'Beschrijving';
+$lang['allow_participants_to_join_anytime']         = 'Sta deelnemers toe om op elk moment deel te nemen';
+
+$lang['mute_participants_upon_entry']                                                   = 'Dempen deelnemers bij binnenkomst';
+$lang['automatically_record_meeting_on_the_local_computer']                             = 'Vergadering automatisch opnemen op de lokale computer';
+$lang['approve_or_block_entry_for_users_from_specific_countries/regions']              = 'Toegang goedkeuren of blokkeren voor gebruikers uit specifieke landen/regio\'s';
+
+$lang['lead_manger_all']                  				= 'Allemaal';
+$lang['lead_manger_activity_audio']                  	= 'Oproepdetails';
+$lang['lead_manger_activity_sms']                  		= 'Sms';
+$lang['lead_manger_activity_recordings']                = 'Opnamen';
+$lang['lead_manger_call_start_time']                    = 'Starttijd oproep';
+$lang['lead_manger_call_end_time']                      = 'Eindtijd oproep';
+$lang['lead_manger_call_duration']                      = 'Gespreksduur';
+$lang['lead_manger_permission_audio_call']              = 'Audiogesprek';
+$lang['lead_manger_permission_video_call']              = 'Video-oproep';
+$lang['lead_manger_permission_sms']                     = 'Verstuur sms';
+$lang['lead_manger_no_permission']                      = 'Geen toestemming!';
+$lang['lead_manager_twilio_number_not_assigned']        = 'Twilio-nummer niet toegewezen!';
+$lang['lead_manger_dt_follow_up']                       = 'Volgende Opvolging';
+$lang['lead_manger_dt_follow_up_yes']                   = 'Ja';
+$lang['lead_manger_dt_follow_up_no']                    = 'Nee';
+$lang['lead_manger_call_direction_title']               = 'Richting';
+$lang['lead_manger_call_recording_title']               = 'Opgenomen';
+
+# 16-11-2021
+
+$lang['lead_manager_lead_chats']                	   = 'sms';
+$lang['manage_leads_heading']                	       = 'Leads beheren';
+$lang['lead_manager_period_year']                	   = 'jaren';
+$lang['lead_manager_period_month']                	   = 'Maanden';
+$lang['lead_manager_conversation_serch_cont']          = 'Zoek contacten...';
+$lang['lm_module_activation_heading']                  = 'Activering van leadmanagermodule';
+$lang['lm_module_not_register_alert']                  = 'Module is niet geregistreerd!';
+
+# 13-01-2020
+
+$lang['lead_manger_permission_email']               = 'E-mail';
+$lang['lead_manager_lead_mailbox']                	= 'Postbus';
+$lang['lm_mailbox_to_label']                	   	= 'Tot';
+$lang['lm_mailbox_cc_label']                	   	= 'CC';
+$lang['lm_mailbox_subject_label']                   = 'Onderwerp';
+$lang['lm_mailbox_compose_label']                	= 'Email opstellen';
+$lang['lm_mailbox_compose_li']                	   	= 'Email opstellen';
+$lang['lm_mailbox_inbox_li']                	   	= 'Postvak IN';
+$lang['lm_mailbox_sent_li']                	   	    = 'Verzonden';
+$lang['lm_mailbox_draft_li']                	   	= 'Voorlopige versie';
+$lang['lm_mailbox_trash_li']                	   	= 'Afval';
+$lang['lm_mailbox_setting_li']                	   	= 'Instelling';
+$lang['lm_mailbox_inbox_title']                	   	= 'Postvak IN';
+$lang['lm_mailbox_from']                	   	    = 'Van';
+$lang['lm_mailbox_subject']                	   	    = 'Onderwerp';
+$lang['lm_mailbox_attachments']                	    = 'Bijlagen';
+$lang['lm_mailbox_date']                	   	    = 'Datum';
+$lang['lm_mailbox_cofiguration_title']              = 'E-mail instellen voor medewerkers';
+
+$lang['lm_mb_is_smtp_field']           		= 'is SMTP';
+$lang['lm_mb_smtp_enc_field']          		= 'SMTP-codering';
+$lang['lm_mb_smtp_user_field']          	= 'SMTP-gebruikersnaam';
+$lang['lm_mb_smtp_password_field']          = 'SMTP-wachtwoord';
+$lang['lm_mb_is_smtp_field_title']          = 'indien AAN, wordt er vanaf hier een e-mail verzonden!';
+$lang['lm_mb_smtp_server_field']            = 'SMTP-serveradres';
+
+$lang['lm_mb_is_imap_field']           		= 'Is IMAP';
+$lang['lm_mb_imap_enc_field']          		= 'IMAP-codering';
+$lang['lm_mb_imap_user_field']          	= 'IMAP-gebruikersnaam';
+$lang['lm_mb_imap_password_field']          = 'IMAP-wachtwoord';
+$lang['lm_mb_is_imap_field_title']          = 'als ALLEEN, zal het e-mail van hier ontvangen!';
+$lang['lm_mb_imap_server_field']            = 'IMAP-serveradres';
+$lang['lm_alert_failed_to_update']          = 'Updaten mislukt!';
+$lang['lm_alert_success_to_update']        	= 'Bijgewerkt!';
+$lang['lm_mb_smtp_port_field']            	= 'SMTP-poort';
+$lang['lm_mailbox_email_label']            	= 'E-mail';
+$lang['lm_mailbox_email_from_name']       	= 'Van naam : ';
+$lang['lm_mailbox_email_from_email']        = 'Van email : ';
+$lang['lm_mailbox_email_subject']           = 'Onderwerp : ';
+$lang['lm_mailbox_email_message']           = 'Bericht : ';
+$lang['lm_mailbox_email_forword']           = 'Voorwoord';
+$lang['lm_mailbox_email_reply']            	= 'Antwoord';
+$lang['lm_mb_smtp_fromname']            	= 'SMTP Van naam';
+
+$lang['lm_mb_bulk_update_success_alert_star']                    	= 'Gemarkeerd als gunstig!';
+$lang['lm_mb_bulk_update_success_alert_unstar']            	        = 'Niet gemarkeerd als gunstig!';
+$lang['lm_mb_bulk_update_success_alert_bookmark']            	    = 'Gemarkeerd als bladwijzer!';
+$lang['lm_mb_bulk_update_success_alert_unbookmark']            	    = 'Bladwijzer verwijderd!';
+$lang['lm_mb_bulk_update_success_alert_delete']            	        = 'Verplaatst in de prullenbak!';
+$lang['lm_mb_bulk_delete_success_alert_']            	            = 'Rij verwijderd!';
+$lang['lm_mb_send_btn']                                         	= 'Versturen';
+$lang['lm_mb_draft_btn']                                         	= 'Opslaan als concept';
+$lang['lm_mb_bulk_update_danger_alert']                         	= 'Niet geüpdate!';
+$lang['lm_mb_mail_sent_success_alert']                          	= 'Niet geüpdate!';
+$lang['lm_mb_mail_sent_danger_alert']            	                = 'E-mail niet verzonden!';
+$lang['lm_last_remark_th']                                      	= 'Laatste opmerking:';
+$lang['lm_remark_th']                                           	= 'Opmerking';
+$lang['lm_follow_up_from_placeholder']                          	= 'Van follow-up';
+$lang['lm_follow_up_to_placeholder']            	                = 'Opvolgen';
+$lang['lm_mb_smtp_config_heading']                                 	= 'Uitgaande e-mails (SMTP)';
+$lang['lm_mb_imap_config_heading']                                 	= 'Inkomende e-mails (IMAP)';
+$lang['lm_back_to_get']            	                                = 'Terug naar Inbox';
+$lang['lm_back_to_sending']                                      	= 'Terug naar verzonden';
+$lang['lm_back_to_draft']            	                            = 'Terug naar concept';
+$lang['lm_back_to_trash']            	                            = 'Terug naar prullenbak';
+$lang['lm_twilio_number_space_error']                            	= 'Ruimte niet toegestaan in twilio telefoonnummer!';
+$lang['lm_twilio_number_numeric_error']                          	= 'Tekens niet toegestaan in twilio telefoonnummer!';
+$lang['lm_alert_no_row_effected']            	                    = 'Er hoeven geen wijzigingen te worden bijgewerkt!';
+$lang['lm_mailbox_to']            	                                = 'Tot';

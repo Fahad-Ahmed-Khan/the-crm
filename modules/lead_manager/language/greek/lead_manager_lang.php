@@ -1,0 +1,137 @@
+<?php
+$lang['lead_manager']                              = 'Διευθυντής Führender';
+$lang['lm_customer_name']                          = 'Kundenname';
+$lang['lm_customer_email']                         = 'Kunden-eMail';
+$lang['lm_staff_name']                             = 'Όνομα Προσωπικού';
+$lang['lm_created_date']                           = 'Ημερομηνία δημιουργίας';
+$lang['lm_zoom_meeting']                           = 'Συνάντηση Zoom';
+$lang['lm_is_client']                              = 'Πελάτης/Επικεφαλής';
+$lang['lm_status']                                 = 'Κατάσταση';
+$lang['lm_remark']                                 = 'Παρατήρηση';
+$lang['lead_manager_client']                       = 'Οι πελάτες';
+$lang['lm_client']                                 = 'Πελάτης';
+$lang['lm_lead']                                   = 'Οδηγω';
+$lang['lead_manager_dashboard']                    = 'Ταμπλό';
+$lang['lead_manager_lead']                	       = 'Οδηγεί';
+$lang['lead_manager_dt_connect']                   = 'Επικεφαλής Διευθυντής';
+$lang['lead_manger_activity']                      = 'Αρχείο καταγραφής δραστηριότητας';
+$lang['lead_manger_audio_call']                    = 'Ηχητική κλήση';
+$lang['lead_manger_video_call']                    = 'Κλήση βίντεο';
+$lang['lead_manger_sms']                  	       = 'γραπτό μήνυμα';
+$lang['lead_manager_sms_modal_title']              = 'SMS Προς:';
+$lang['lead_manager_message_data']               	= 'Μήνυμα';
+$lang['lead_manager_bulk_sms']          		   = 'Μαζικά SMS';
+$lang['zoom_meeting_duration']          	    	= 'Διάρκεια συνάντησης (λεπτό)';
+$lang['lead_name']          	                	= 'Ονομα';
+$lang['meeting_date']          	                 	= 'Ημερομηνία έναρξης συνάντησης';
+$lang['meeting_join_link']          	        	= 'Σύνδεσμος εγγραφής';
+$lang['meeting_start_link']          		        = 'Σύνδεσμος έναρξης';
+$lang['zoom_meeting_agenda']          	         	= 'Ημερήσια διάταξη της συνάντησης';
+$lang['lead_manager_zoom_meetings']          		= 'Συναντήσεις';
+$lang['zoom_meeting_options']          		        = 'Επιλογές σύσκεψης ζουμ';
+$lang['lead_manager_zoom_description']              = 'Περιγραφή';
+$lang['allow_participants_to_join_anytime']         = 'Να επιτρέπεται στους συμμετέχοντες να συμμετέχουν ανά πάσα στιγμή';
+
+$lang['mute_participants_upon_entry']                                                   = 'Σίγαση Συμμετεχόντων κατά την είσοδο';
+$lang['automatically_record_meeting_on_the_local_computer']                             = 'Αυτόματη εγγραφή συνάντησης στον τοπικό υπολογιστή';
+$lang['approve_or_block_entry_for_users_from_specific_countries/regions']              = 'Εγκρίνετε ή αποκλείετε την είσοδο για χρήστες από συγκεκριμένες χώρες/περιοχές';
+
+$lang['lead_manger_all']                  				= 'Ολα';
+$lang['lead_manger_activity_audio']                  	= 'Στοιχεία κλήσης';
+$lang['lead_manger_activity_sms']                  		= 'Γραπτό μήνυμα';
+$lang['lead_manger_activity_recordings']                = 'Ηχογραφήσεις';
+$lang['lead_manger_call_start_time']                    = 'Ώρα έναρξης κλήσης';
+$lang['lead_manger_call_end_time']                      = 'Ώρα λήξης κλήσης';
+$lang['lead_manger_call_duration']                      = 'Διάρκεια κλήσης';
+$lang['lead_manger_permission_audio_call']              = 'Ηχητική κλήση';
+$lang['lead_manger_permission_video_call']              = 'Κλήση βίντεο';
+$lang['lead_manger_permission_sms']                     = 'Αποστολή SMS';
+$lang['lead_manger_no_permission']                      = 'Χωρίς άδεια!';
+$lang['lead_manager_twilio_number_not_assigned']        = 'Ο αριθμός Twilio δεν έχει εκχωρηθεί!';
+$lang['lead_manger_dt_follow_up']                       = 'Επόμενη συνέχεια';
+$lang['lead_manger_dt_follow_up_yes']                   = 'Ναί';
+$lang['lead_manger_dt_follow_up_no']                    = 'Οχι';
+$lang['lead_manger_call_direction_title']               = 'Κατεύθυνση';
+$lang['lead_manger_call_recording_title']               = 'Εχει καταγραφεί';
+
+# 16-11-2021
+
+$lang['lead_manager_lead_chats']                	   = 'γραπτό μήνυμα';
+$lang['manage_leads_heading']                	       = 'Διαχείριση δυνητικών πελατών';
+$lang['lead_manager_period_year']                	   = 'Χρόνια';
+$lang['lead_manager_period_month']                	   = 'Μήνες';
+$lang['lead_manager_conversation_serch_cont']          = 'Αναζήτηση επαφών...';
+$lang['lm_module_activation_heading']                  = 'Ενεργοποίηση μονάδας Lead Manager';
+$lang['lm_module_not_register_alert']                  = 'Η ενότητα δεν έχει εγγραφεί!';
+
+# 13-01-2020
+
+$lang['lead_manger_permission_email']               = 'ΗΛΕΚΤΡΟΝΙΚΗ ΔΙΕΥΘΥΝΣΗ';
+$lang['lead_manager_lead_mailbox']                	= 'Γραμματοκιβώτιο';
+$lang['lm_mailbox_to_label']                	   	= 'Προς την';
+$lang['lm_mailbox_cc_label']                	   	= 'CC';
+$lang['lm_mailbox_subject_label']                   = 'Θέμα';
+$lang['lm_mailbox_compose_label']                	= 'Σύνταξη email';
+$lang['lm_mailbox_compose_li']                	   	= 'Σύνταξη email';
+$lang['lm_mailbox_inbox_li']                	   	= 'Inbox';
+$lang['lm_mailbox_sent_li']                	   	    = 'Απεσταλμένα';
+$lang['lm_mailbox_draft_li']                	   	= 'Προσχέδιο';
+$lang['lm_mailbox_trash_li']                	   	= 'Σκουπίδια';
+$lang['lm_mailbox_setting_li']                	   	= 'Σύνθεση';
+$lang['lm_mailbox_inbox_title']                	   	= 'Inbox';
+$lang['lm_mailbox_from']                	   	    = 'Από';
+$lang['lm_mailbox_subject']                	   	    = 'Θέμα';
+$lang['lm_mailbox_attachments']                	    = 'Συνημμένα';
+$lang['lm_mailbox_date']                	   	    = 'Ημερομηνία';
+$lang['lm_mailbox_cofiguration_title']              = 'Ρύθμιση αλληλογραφίας προσωπικού';
+
+$lang['lm_mb_is_smtp_field']           		= 'Είναι SMTP';
+$lang['lm_mb_smtp_enc_field']          		= 'Κρυπτογράφηση SMTP';
+$lang['lm_mb_smtp_user_field']          	= 'Όνομα χρήστη SMTP';
+$lang['lm_mb_smtp_password_field']          = 'Κωδικός πρόσβασης SMTP';
+$lang['lm_mb_is_smtp_field_title']          = 'αν είναι ON, θα στείλει email από εδώ!';
+$lang['lm_mb_smtp_server_field']            = 'Διεύθυνση διακομιστή SMTP';
+
+$lang['lm_mb_is_imap_field']           		= 'Είναι IMAP';
+$lang['lm_mb_imap_enc_field']          		= 'Κρυπτογράφηση IMAP';
+$lang['lm_mb_imap_user_field']          	= 'Όνομα χρήστη IMAP';
+$lang['lm_mb_imap_password_field']          = 'Κωδικός πρόσβασης IMAP';
+$lang['lm_mb_is_imap_field_title']          = 'εάν είναι ON, θα λάβει email από εδώ!';
+$lang['lm_mb_imap_server_field']            = 'Διεύθυνση διακομιστή IMAP';
+$lang['lm_alert_failed_to_update']          = 'Η ενημέρωση απέτυχε!';
+$lang['lm_alert_success_to_update']        	= 'ΕΠΙΚΑΙΡΟΠΟΙΗΜΕΝΟ!';
+$lang['lm_mb_smtp_port_field']            	= 'Θύρα SMTP';
+$lang['lm_mailbox_email_label']            	= 'ΗΛΕΚΤΡΟΝΙΚΗ ΔΙΕΥΘΥΝΣΗ';
+$lang['lm_mailbox_email_from_name']       	= 'Από όνομα :';
+$lang['lm_mailbox_email_from_email']        = 'Από email:';
+$lang['lm_mailbox_email_subject']           = 'Θέμα :';
+$lang['lm_mailbox_email_message']           = 'Μήνυμα:';
+$lang['lm_mailbox_email_forword']           = 'Πρόλογος';
+$lang['lm_mailbox_email_reply']            	= 'Απάντηση';
+$lang['lm_mb_smtp_fromname']            	= 'SMTP Από όνομα';
+
+$lang['lm_mb_bulk_update_success_alert_star']                    	= 'Επισημάνθηκε ως ευνοϊκό!';
+$lang['lm_mb_bulk_update_success_alert_unstar']            	        = 'Καταργήθηκε η επισήμανση ως ευνοϊκού!';
+$lang['lm_mb_bulk_update_success_alert_bookmark']            	    = 'Επισημάνθηκε ως σελιδοδείκτης!';
+$lang['lm_mb_bulk_update_success_alert_unbookmark']            	    = 'Καταργήθηκε ο σελιδοδείκτης!';
+$lang['lm_mb_bulk_update_success_alert_delete']            	        = 'Μεταφέρθηκε στα σκουπίδια!';
+$lang['lm_mb_bulk_delete_success_alert_']            	            = 'Η σειρά διαγράφηκε!';
+$lang['lm_mb_send_btn']                                         	= 'Στείλετε';
+$lang['lm_mb_draft_btn']                                         	= 'Αποθηκεύσετε ως πρόχειρο';
+$lang['lm_mb_bulk_update_danger_alert']                         	= 'Δεν ενημερώθηκε!';
+$lang['lm_mb_mail_sent_success_alert']                          	= 'Το μήνυμα ηλεκτρονικού ταχυδρομείου εστάλη!';
+$lang['lm_mb_mail_sent_danger_alert']            	                = 'Το email δεν στάλθηκε!';
+$lang['lm_last_remark_th']                                      	= 'Τελευταία παρατήρηση';
+$lang['lm_remark_th']                                           	= 'Παρατήρηση';
+$lang['lm_follow_up_from_placeholder']                          	= 'Από την παρακολούθηση';
+$lang['lm_follow_up_to_placeholder']            	                = 'Για παρακολούθηση';
+$lang['lm_mb_smtp_config_heading']                                 	= 'Εξερχόμενα email (SMTP)';
+$lang['lm_mb_imap_config_heading']                                 	= 'Εισερχόμενα email (IMAP)';
+$lang['lm_back_to_get']            	                                = 'Επιστροφή στα Εισερχόμενα';
+$lang['lm_back_to_sending']                                      	= 'Επιστροφή στα Απεσταλμένα';
+$lang['lm_back_to_draft']            	                            = 'Επιστροφή στο προσχέδιο';
+$lang['lm_back_to_trash']            	                            = 'Επιστροφή στον Κάδο απορριμμάτων';
+$lang['lm_twilio_number_space_error']                            	= 'Δεν επιτρέπεται χώρος στον αριθμό τηλεφώνου twilio!';
+$lang['lm_twilio_number_numeric_error']                          	= 'Δεν επιτρέπονται χαρακτήρες στον αριθμό τηλεφώνου twilio!';
+$lang['lm_alert_no_row_effected']            	                    = 'Δεν χρειάζεται να γίνει ενημέρωση!';
+$lang['lm_mailbox_to']            	                                = 'Προς την';

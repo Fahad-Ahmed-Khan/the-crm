@@ -1,0 +1,137 @@
+<?php
+$lang['lead_manager']                              = 'Vedoucí manažer';
+$lang['lm_customer_name']                          = 'Jméno zákazníka';
+$lang['lm_customer_email']                         = 'E-mail zákazníka';
+$lang['lm_staff_name']                             = 'Jméno zaměstnance';
+$lang['lm_created_date']                           = 'Datum vytvoření';
+$lang['lm_zoom_meeting']                           = 'Zoom Setkání';
+$lang['lm_is_client']                              = 'Zákazník/vedoucí';
+$lang['lm_status']                                 = 'Postavení';
+$lang['lm_remark']                                 = 'Poznámka';
+$lang['lead_manager_client']                       = 'Zákazníci';
+$lang['lm_client']                                 = 'Zákazník';
+$lang['lm_lead']                                   = 'Vést';
+$lang['lead_manager_dashboard']                    = 'Přístrojová deska';
+$lang['lead_manager_lead']                	       = 'Vede';
+$lang['lead_manager_dt_connect']                   = 'Vedoucí manažer';
+$lang['lead_manger_activity']                      = 'Protokol činnosti';
+$lang['lead_manger_audio_call']                    = 'Zvukový hovor';
+$lang['lead_manger_video_call']                    = 'Videohovor';
+$lang['lead_manger_sms']                  	       = 'SMS';
+$lang['lead_manager_sms_modal_title']              = 'SMS Komu: ';
+$lang['lead_manager_message_data']               	= 'Zpráva';
+$lang['lead_manager_bulk_sms']          		   = 'Hromadné SMS';
+$lang['zoom_meeting_duration']          	    	= 'Délka schůzky (minuta)';
+$lang['lead_name']          	                	= 'název';
+$lang['meeting_date']          	                 	= 'Datum zahájení schůzky';
+$lang['meeting_join_link']          	        	= 'Připojte se k odkazu';
+$lang['meeting_start_link']          		        = 'Spustit odkaz';
+$lang['zoom_meeting_agenda']          	         	= 'Program jednání';
+$lang['lead_manager_zoom_meetings']          		= 'Setkání';
+$lang['zoom_meeting_options']          		        = 'Zoom Možnosti schůzky';
+$lang['lead_manager_zoom_description']              = 'Popis';
+$lang['allow_participants_to_join_anytime']         = 'Umožněte účastníkům připojit se kdykoli';
+
+$lang['mute_participants_upon_entry']                                                   = 'Ztlumit účastníky při vstupu';
+$lang['automatically_record_meeting_on_the_local_computer']                             = 'Automaticky zaznamenejte schůzku na místním počítači';
+$lang['approve_or_block_entry_for_users_from_specific_countries/regions']              = 'Schvalte nebo zablokujte vstup pro uživatele z konkrétních zemí/oblastí';
+
+$lang['lead_manger_all']                  				= 'Všechno';
+$lang['lead_manger_activity_audio']                  	= 'Podrobnosti o volání';
+$lang['lead_manger_activity_sms']                  		= 'SMS';
+$lang['lead_manger_activity_recordings']                = 'Nahrávky';
+$lang['lead_manger_call_start_time']                    = 'Čas zahájení hovoru';
+$lang['lead_manger_call_end_time']                      = 'Čas ukončení hovoru';
+$lang['lead_manger_call_duration']                      = 'Délka hovoru';
+$lang['lead_manger_permission_audio_call']              = 'Zvukový hovor';
+$lang['lead_manger_permission_video_call']              = 'Videohovor';
+$lang['lead_manger_permission_sms']                     = 'Pošli SMS';
+$lang['lead_manger_no_permission']                      = 'Bez povolení!';
+$lang['lead_manager_twilio_number_not_assigned']        = 'Číslo Twilio nebylo přiděleno!';
+$lang['lead_manger_dt_follow_up']                       = 'Další Sledování';
+$lang['lead_manger_dt_follow_up_yes']                   = 'Ano';
+$lang['lead_manger_dt_follow_up_no']                    = 'Ne';
+$lang['lead_manger_call_direction_title']               = 'Směr';
+$lang['lead_manger_call_recording_title']               = 'Zaznamenáno';
+
+# 16-11-2021
+
+$lang['lead_manager_lead_chats']                	   = 'SMS';
+$lang['manage_leads_heading']                	       = 'Správa potenciálních zákazníků';
+$lang['lead_manager_period_year']                	   = 'let';
+$lang['lead_manager_period_month']                	   = 'měsíce';
+$lang['lead_manager_conversation_serch_cont']          = 'Hledat kontakty...';
+$lang['lm_module_activation_heading']                  = 'Aktivace modulu vedoucího manažera';
+$lang['lm_module_not_register_alert']                  = 'Modul není registrován!';
+
+# 13-01-2020
+
+$lang['lead_manger_permission_email']               = 'E-mailem';
+$lang['lead_manager_lead_mailbox']                	= 'Poštovní schránka';
+$lang['lm_mailbox_to_label']                	   	= 'Na';
+$lang['lm_mailbox_cc_label']                	   	= 'CC';
+$lang['lm_mailbox_subject_label']                   = 'Předmět';
+$lang['lm_mailbox_compose_label']                	= 'Napsat e-mail';
+$lang['lm_mailbox_compose_li']                	   	= 'Napsat e-mail';
+$lang['lm_mailbox_inbox_li']                	   	= 'Doručená pošta';
+$lang['lm_mailbox_sent_li']                	   	    = 'Odesláno';
+$lang['lm_mailbox_draft_li']                	   	= 'Návrh';
+$lang['lm_mailbox_trash_li']                	   	= 'Odpadky';
+$lang['lm_mailbox_setting_li']                	   	= 'Nastavení';
+$lang['lm_mailbox_inbox_title']                	   	= 'Doručená pošta';
+$lang['lm_mailbox_from']                	   	    = 'Z';
+$lang['lm_mailbox_subject']                	   	    = 'Předmět';
+$lang['lm_mailbox_attachments']                	    = 'Přílohy';
+$lang['lm_mailbox_date']                	   	    = 'datum';
+$lang['lm_mailbox_cofiguration_title']              = 'Nastavení pošty zaměstnanců';
+
+$lang['lm_mb_is_smtp_field']           		= 'Je SMTP';
+$lang['lm_mb_smtp_enc_field']          		= 'Šifrování SMTP';
+$lang['lm_mb_smtp_user_field']          	= 'Uživatelské jméno SMTP';
+$lang['lm_mb_smtp_password_field']          = 'Heslo SMTP';
+$lang['lm_mb_is_smtp_field_title']          = 'pokud je ZAPNUTO, odešle e-mail odtud!';
+$lang['lm_mb_smtp_server_field']            = 'Adresa serveru SMTP';
+
+$lang['lm_mb_is_imap_field']           		= 'Je IMAP';
+$lang['lm_mb_imap_enc_field']          		= 'Šifrování IMAP';
+$lang['lm_mb_imap_user_field']          	= 'Uživatelské jméno IMAP';
+$lang['lm_mb_imap_password_field']          = 'Heslo IMAP';
+$lang['lm_mb_is_imap_field_title']          = 'pokud POUZE, obdrží e-mail odtud!';
+$lang['lm_mb_imap_server_field']            = 'Adresa serveru IMAP';
+$lang['lm_alert_failed_to_update']          = 'Aktualizace se nezdařila!';
+$lang['lm_alert_success_to_update']        	= 'Aktualizováno!';
+$lang['lm_mb_smtp_port_field']            	= 'SMTP port';
+$lang['lm_mailbox_email_label']            	= 'E-mailem';
+$lang['lm_mailbox_email_from_name']       	= 'Ze jména : ';
+$lang['lm_mailbox_email_from_email']        = 'Z e-mailu : ';
+$lang['lm_mailbox_email_subject']           = 'Předmět: ';
+$lang['lm_mailbox_email_message']           = 'Zpráva : ';
+$lang['lm_mailbox_email_forword']           = 'Předmluva';
+$lang['lm_mailbox_email_reply']            	= 'Odpověď';
+$lang['lm_mb_smtp_fromname']            	= 'Jméno odesílatele SMTP';
+
+$lang['lm_mb_bulk_update_success_alert_star']                    	= 'Označeno jako příznivé!';
+$lang['lm_mb_bulk_update_success_alert_unstar']            	        = 'Neoznačeno jako příznivé!';
+$lang['lm_mb_bulk_update_success_alert_bookmark']            	    = 'Označeno jako záložka!';
+$lang['lm_mb_bulk_update_success_alert_unbookmark']            	    = 'Záložka odstraněna!';
+$lang['lm_mb_bulk_update_success_alert_delete']            	        = 'Přesunuto do koše!';
+$lang['lm_mb_bulk_delete_success_alert_']            	            = 'Řádek smazán!';
+$lang['lm_mb_send_btn']                                         	= 'Poslat';
+$lang['lm_mb_draft_btn']                                         	= 'Uložit jako koncept';
+$lang['lm_mb_bulk_update_danger_alert']                         	= 'Neaktualizováno!';
+$lang['lm_mb_mail_sent_success_alert']                          	= 'Email odeslán!';
+$lang['lm_mb_mail_sent_danger_alert']            	                = 'Email nebyl odeslán!';
+$lang['lm_last_remark_th']                                      	= 'Poslední poznámka';
+$lang['lm_remark_th']                                           	= 'Poznámka';
+$lang['lm_follow_up_from_placeholder']                          	= 'Od Sledovat';
+$lang['lm_follow_up_to_placeholder']            	                = 'Následovat';
+$lang['lm_mb_smtp_config_heading']                                 	= 'Odchozí e-maily (SMTP)';
+$lang['lm_mb_imap_config_heading']                                 	= 'Příchozí e-maily (IMAP)';
+$lang['lm_back_to_get']            	                                = 'Zpět do doručené pošty';
+$lang['lm_back_to_sending']                                      	= 'Zpět k odeslání';
+$lang['lm_back_to_draft']            	                            = 'Zpět na koncept';
+$lang['lm_back_to_trash']            	                            = 'Zpět na koncept';
+$lang['lm_twilio_number_space_error']                            	= 'Místo na telefonním čísle twilio není povoleno!';
+$lang['lm_twilio_number_numeric_error']                          	= 'V telefonním čísle twilio nejsou povoleny znaky!';
+$lang['lm_alert_no_row_effected']            	                    = 'Žádné změny se nemusí aktualizovat!';
+$lang['lm_mailbox_to']            	                                = 'Na';

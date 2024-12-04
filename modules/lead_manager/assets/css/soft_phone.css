@@ -1,0 +1,685 @@
+.h-list,
+.actions {
+    margin: 0;
+    padding: 0;
+    list-item-style: none;
+}
+
+.h-list>li,
+.actions>li {
+    display: inline-block;
+}
+
+/ main / .container {
+    position: relative;
+    height: 140px;
+    width: 300px;
+    margin: 20px auto;
+    perspective: 600px;
+}
+
+.call {
+    position: absolute;
+    width: 30%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+    color: #ecf0f1;
+    padding: 10px;
+    border-radius: 4px;
+    transition: all 1s, background-color 600ms, opacity 600ms;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    z-index: 9999;
+    overflow: hidden;
+}
+
+.ringing {
+    background-color: #51647c;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);
+    border-radius: 18px;
+    display: none;
+}
+
+.hold {
+    background-color: #E9B863 !important;
+}
+
+.confrence {
+    background-color: #0af030 !important;
+}
+
+.speaking {
+    box-shadow: 0 1px 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);
+    border-radius: 18px;
+}
+
+.dialing,
+.speaking {
+    background-color: #626f80;
+}
+
+.wrapup {
+    background-color: #ff7980;
+}
+
+/ inner / .head_bell {
+    font-size: 42px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.head_bell {
+    text-align: center;
+}
+
+.head_bell img {
+    width: 50px
+}
+
+.details {
+    color: #ecf0f1;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.actions {
+    width: 100%;
+    padding: 2px 16px;
+    box-sizing: border-box;
+}
+
+.decline-icon {
+    transform: rotate( 135deg);
+}
+
+.decline-icon {
+    display: : inline-block !important;
+}
+
+.action {
+    margin-left: -2px;
+    margin-right: -2px;
+    width: 50%;
+    padding: 0 8px 0 12px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.action>a {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto !important;
+    border-radius: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 0px 8px;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    line-height: 59px;
+}
+
+.action>a:hover {
+    /*    background-color: rgba(255, 255, 255, 0.2);*/
+}
+
+.cut a {
+    background-color: transparent;
+    border: 1px solid #FF3B30;
+    color: #FF3B30;
+}
+
+.cut a:hover {
+    background-color: #FF3B30;
+    color: white
+}
+
+.pic a:hover {
+    background-color: #FF3B30;
+    color: white
+}
+
+.pic a {
+    background-color: transparent;
+    border: 1px solid #84c529;
+    color: #84c529;
+}
+
+.pic a:hover {
+    background-color: #84c529;
+    color: white
+}
+
+/ animation / .-fadeout {
+    filter: blur(6px);
+    opacity: 0;
+}
+
+.-drop {
+    filter: blur(6px);
+    opacity: 0;
+    transform: translateY(20%) rotateX(20deg);
+}
+
+.-flip {
+    transform: rotateY(180deg);
+}
+
+.flipback {
+    transform: rotateY(-180deg);
+}
+
+.-ringing {
+    -webkit-animation: _ringing 600ms infinite;
+    animation: _ringing 600ms infinite;
+    -webkit-animation-fill-mode: forward;
+    animation-fill-mode: forward;
+    -webkit-animation-direction: normal;
+    animation-direction: normal;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+}
+
+.-dialing {
+    -webkit-animation: _ringing 600ms infinite;
+    animation: _ringing 600ms infinite;
+    -webkit-animation-fill-mode: forward;
+    animation-fill-mode: forward;
+    -webkit-animation-direction: normal;
+    animation-direction: normal;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+}
+
+@-webkit-keyframes _ringing {
+    0% {
+        transform: translate(0, 0);
+    }
+    10% {
+        transform: translate(6px, 0px);
+        transform: rotateZ(2deg);
+    }
+    20% {
+        transform: translate(-6px, 0px);
+        transform: rotateZ(-2deg);
+    }
+    30% {
+        transform: translate(3px, 0px);
+        transform: rotateZ(1deg);
+    }
+    40% {
+        transform: translate(-3px, 0px);
+        transform: rotateZ(-1deg);
+    }
+    50% {
+        transform: translate(2px, 0px);
+        transform: rotateZ(1deg);
+    }
+    60% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+@keyframes _ringing {
+    0% {
+        transform: translate(0, 0);
+    }
+    10% {
+        transform: translate(6px, 0px);
+        transform: rotateZ(2deg);
+    }
+    20% {
+        transform: translate(-6px, 0px);
+        transform: rotateZ(-2deg);
+    }
+    30% {
+        transform: translate(3px, 0px);
+        transform: rotateZ(1deg);
+    }
+    40% {
+        transform: translate(-3px, 0px);
+        transform: rotateZ(-1deg);
+    }
+    50% {
+        transform: translate(2px, 0px);
+        transform: rotateZ(1deg);
+    }
+    60% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+/ eq / .hidden {
+    display: none;
+}
+
+.sound {
+    font-size: 26px;
+    position: absolute;
+    top: -6px;
+    right: -6px;
+    opacity: 0.2;
+    cursor: pointer;
+}
+
+.sound:hover {
+    opacity: 0.5;
+}
+
+.fa-ban {
+    color: tomato;
+}
+
+.head {
+    height: 46px;
+}
+
+#eq {
+    width: 220px;
+    height: 46px;
+}
+
+#soft-phone-draggable {
+    border: 0 !important;
+    background: #6b676700 url(../plugins/jquery-ui/images/ui-bg_highlight-soft_100_eeeeee_1x100.png) ba !important;
+    color: #333;
+    position: fixed !important;
+    z-index: 9999;
+    width: 100% !important;
+    top: 0;
+}
+
+.dialing {
+    background-color: #000000;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);
+    border-radius: 18px;
+    display: none;
+}
+
+.action_dial {
+    margin-left: 89px;
+    margin-right: -2px;
+    width: 50%;
+    padding: 0 8px 0 12px;
+    box-sizing: border-box;
+    text-align: center;
+    display: flex;
+}
+
+.action_dial>a {
+    width: 70px;
+    height: 70px;
+    margin: 0 auto !important;
+    border-radius: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 5px 8px;
+    text-decoration: none;
+    font-size: 33px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    line-height: 60px;
+}
+
+.action_dial>a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.action_dial .cut a {
+    background-color: transparent;
+    border: 1px solid #FF3B30;
+    color: #FF3B30;
+}
+
+#calling-info img {
+    width: 30px;
+    height: 26px;
+}
+
+#speaking-soft-phone h4 {
+    font-size: 25px;
+}
+
+#speaking-soft-phone h4 i {
+    font-size: 23px;
+}
+
+#speaking-soft-phone .action {
+    margin: 0 auto
+}
+
+#speaking-soft-phone .action_dial {
+    margin-left: 0;
+    margin-right: -2px;
+    width: auto;
+}
+
+#speaking-soft-phone .details {}
+
+#speaking-soft-phone .sound {
+    opacity: 1
+}
+
+p.bold.fil_cl {
+    margin-top: 9px;
+}
+
+#speaking-soft-phone {
+    display: none;
+}
+
+.show_cut_btn {
+    display: block !important;
+}
+
+#dialer_table {
+    width: 100%;
+    font-size: 1.5em;
+}
+
+#dialer_table tr td {
+    text-align: center;
+    height: auto;
+    width: 33%;
+    padding: 2px 0;
+}
+
+#dialer_table #dialer_input_td {
+    /*  border-bottom: 1px solid #fafafa;*/
+    padding: 0;
+}
+
+#dialer_table #dialer_input_td input {
+    width: 73%;
+    border: none;
+    font-size: 1.3em;
+    text-align: center;
+    background-color: #ffffff00;
+    border: 2px solid #ffffff82;
+    color: white;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    padding: 6px;
+}
+
+
+/* Remove arrows from type number input : Chrome, Safari, Edge, Opera */
+
+#dialer_table #dialer_input_td input::-webkit-outer-spin-button,
+#dialer_table #dialer_input_td input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+/* Remove arrows from type number input : Firefox */
+
+#dialer_table #dialer_input_td input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+#dialer_table #dialer_input_td input::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #cccccc;
+    opacity: 1;
+    /* Firefox */
+}
+
+#dialer_table #dialer_input_td input:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #cccccc;
+}
+
+#dialer_table #dialer_input_td input::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #cccccc;
+}
+
+#dialer_table #dialer_call_btn_td {
+    color: #ffffff;
+    background-color: green;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    text-decoration: none;
+    padding: 5px 32px;
+    text-align: center;
+    display: inline-block;
+    margin: 10px 2px 4px 2px;
+    transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    --webkit-transition: all 300ms ease;
+}
+
+#dialer_table #dialer_call_btn_td:hover {
+    background-color: #009d00;
+}
+
+#dialer_table .dialer_num_tr td {
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Old versions of Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+    /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+}
+
+
+/*
+#dialer_table .dialer_num_tr td:nth-child(1) {
+  border-right: 1px solid #fafafa;
+}
+
+#dialer_table .dialer_num_tr td:nth-child(3) {
+  border-left: 1px solid #fafafa;
+}
+
+#dialer_table .dialer_num_tr:nth-child(1) td,
+#dialer_table .dialer_num_tr:nth-child(2) td,
+#dialer_table .dialer_num_tr:nth-child(3) td,
+#dialer_table .dialer_num_tr:nth-child(4) td {
+  border-bottom: 1px solid #fafafa;
+}
+*/
+
+#dialer_table .dialer_num_tr .dialer_num div {
+    color: white;
+    cursor: pointer;
+    width: 50px;
+    margin: 0 auto;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 8px;
+    font-size: 25px;
+}
+
+#dialer_table .dialer_num_tr .dialer_num div:hover {
+    background-color: #ecf0f173;
+    color: black;
+}
+
+#dialer_table .dialer_num_tr:nth-child(0) td {
+    border-top: 1px solid #fafafa;
+}
+
+#dialer_table .dialer_del_td img {
+    cursor: pointer;
+}
+
+#dialer_modal {
+    display: none
+}
+
+#transfer_staff_modal {
+    display: none
+}
+
+#dialer_modal .modal-header {
+    background: #51647c;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);
+    border-radius: 0;
+    padding: 12px;
+}
+
+#dialer_modal .modal-header h5 {
+    display: inline-block;
+    font-size: 20px;
+}
+
+.call_duration {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.call_duration span {
+    font-size: 15px;
+}
+
+.conference_list {
+    padding: 10px 30px;
+}
+
+.incomming_list {
+    padding: 10px 30px;
+}
+
+.conference_list ul li {
+    display: flex;
+    justify-content: space-between!important;
+    align-items: center!important;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #d5d5d526;
+    padding-bottom: 10px;
+}
+
+.incomming_list ul li {
+    display: flex;
+    justify-content: space-between!important;
+    align-items: center!important;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #d5d5d526;
+    padding-bottom: 10px;
+}
+
+.conference_list_action span {
+    padding: 5px;
+    border: 1px solid #b3b3b3;
+    margin: 0 3px;
+    border-radius: 5px;
+    width: 30px;
+    display: inline-block;
+    height: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.incomming_list span {
+    padding: 5px;
+    border: 1px solid #b3b3b3;
+    margin: 0 3px;
+    border-radius: 5px;
+    width: 30px;
+    display: inline-block;
+    height: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+
+span.cnfrc_decline {
+    background-color: #ff3b30;
+    border-color: transparent;
+}
+
+span.inc_call_decline {
+    background-color: #ff3b30;
+    border-color: transparent;
+}
+
+span.inc_call_accept {
+    background-color: #037e22;
+    border-color: transparent;
+}
+
+span.mute {
+    background-color: #037e22;
+    border-color: transparent;
+}
+
+.conference_list ul li .fa-user {
+    font-size: 15px;
+    padding: 5px;
+}
+
+.incomming_list ul li .fa-user {
+    font-size: 15px;
+    padding: 5px;
+}
+
+.clsp_btn {
+    background-color: transparent;
+    padding: 4px 9px;
+    padding-bottom: 1px;
+    display: table;
+    margin: 18px auto;
+    margin-right: 36px;
+    border: 1px solid #c9c6c661;
+    margin-bottom: 5px;
+    color: white !important;
+}
+
+a#transfer-btn {
+    padding: 4px 10px;
+    line-height: 30px;
+    height: 36px;
+    background-color: #176bc1;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 19px;
+    border-radius: 4px;
+}
+
+.call-transfer-active {
+    color: #037e22;
+}
+
+.incom_call_details {
+    animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+/*
+.menu-item-lead_manager .nav-second-level li a {
+    display: inline-block;
+}
+
+.menu-item-lead_manager .nav-second-level li:hover {
+    background-color: #e3e8ee;
+}*/

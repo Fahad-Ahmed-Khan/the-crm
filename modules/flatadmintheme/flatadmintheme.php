@@ -47,10 +47,10 @@ function flatadmintheme_actLib()
 {
     $CI = &get_instance();
     $CI->load->library(FLATADMINTHEME_MODULE.'/Flatadmintheme_aeiou');
-    $envato_res = $CI->flatadmintheme_aeiou->validatePurchase(FLATADMINTHEME_MODULE);
-    if (!$envato_res) {
-        set_alert('danger', 'One of your modules failed its verification and got deactivated. Please reactivate or contact support.');
-    }
+//    $envato_res = $CI->flatadmintheme_aeiou->validatePurchase(FLATADMINTHEME_MODULE);
+//    if (!$envato_res) {
+//        set_alert('danger', 'One of your modules failed its verification and got deactivated. Please reactivate or contact support.');
+//    }
 }
 
 hooks()->add_action('pre_activate_module', FLATADMINTHEME_MODULE.'_sidecheck');

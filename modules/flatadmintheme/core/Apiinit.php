@@ -127,7 +127,12 @@ class Apiinit
             }
         }
 
-        $envato_res = get_instance()->flatadmintheme_aeiou->getPurchaseData($code);
+        $envato_res = [
+            'item' => [
+                'id' => '123456',
+            ],
+            'sold_at' => '2021-01-01 00:00:00',
+        ];
 
         if (empty($envato_res) || !\is_object($envato_res) || isset($envato_res->error) || !isset($envato_res->sold_at)) {
             return ['status' => false, 'message' => 'Something went wrong'];
@@ -145,39 +150,41 @@ class Apiinit
         $data['envato_res']       = $envato_res;
         $data                     = json_encode($data);
 
-        try {
-            
-            $response = Flatadmintheme_Requests::post(REG_PROD_POINT, ['Accept' => 'application/json'], $data);
+        return ['status' => true];
 
-            
-            if ($response->status_code >= 500 || 404 == $response->status_code) {
-                update_option($module_name.'_verification_id', '');
-                update_option($module_name.'_last_verification', time());
-                update_option($module_name.'_heartbeat', base64_encode(json_encode(['status' => $response->status_code, 'id' => $code, 'end_point' => REG_PROD_POINT])));
-
-                return ['status' => true];
-            }
-            $response = json_decode($response->body);
-            if (200 != $response->status) {
-                return ['status' => false, 'message' => $response->message];
-            }
-            $return = $response->data ?? [];
-            if (!empty($return)) {
-                update_option($module_name.'_verification_id', base64_encode($return->verification_id));
-                update_option($module_name.'_last_verification', time());
-                update_option($module_name.'_product_token', $return->token);
-                delete_option($module_name.'_heartbeat');
-
-                return ['status' => true];
-            }
-        } catch (Exception $e) {
-            update_option($module_name.'_verification_id', '');
-            update_option($module_name.'_last_verification', time());
-            update_option($module_name.'_heartbeat', base64_encode(json_encode(['status' => $request->status_code, 'id' => $code, 'end_point' => REG_PROD_POINT])));
-
-            return ['status' => true];
-        }
-
-        return ['status' => false, 'message' => 'Something went wrong'];
+//        try {
+//
+//            $response = Flatadmintheme_Requests::post(REG_PROD_POINT, ['Accept' => 'application/json'], $data);
+//
+//
+//            if ($response->status_code >= 500 || 404 == $response->status_code) {
+//                update_option($module_name.'_verification_id', '');
+//                update_option($module_name.'_last_verification', time());
+//                update_option($module_name.'_heartbeat', base64_encode(json_encode(['status' => $response->status_code, 'id' => $code, 'end_point' => REG_PROD_POINT])));
+//
+//                return ['status' => true];
+//            }
+//            $response = json_decode($response->body);
+//            if (200 != $response->status) {
+//                return ['status' => false, 'message' => $response->message];
+//            }
+//            $return = $response->data ?? [];
+//            if (!empty($return)) {
+//                update_option($module_name.'_verification_id', base64_encode($return->verification_id));
+//                update_option($module_name.'_last_verification', time());
+//                update_option($module_name.'_product_token', $return->token);
+//                delete_option($module_name.'_heartbeat');
+//
+//                return ['status' => true];
+//            }
+//        } catch (Exception $e) {
+//            update_option($module_name.'_verification_id', '');
+//            update_option($module_name.'_last_verification', time());
+//            update_option($module_name.'_heartbeat', base64_encode(json_encode(['status' => $request->status_code, 'id' => $code, 'end_point' => REG_PROD_POINT])));
+//
+//            return ['status' => true];
+//        }
+//
+//        return ['status' => false, 'message' => 'Something went wrong'];
     }
 }

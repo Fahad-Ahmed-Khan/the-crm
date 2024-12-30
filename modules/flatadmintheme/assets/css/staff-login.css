@@ -1,0 +1,230 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	background: url(../../../flatadmintheme/assets/css/images/loginbg.jpg);
+	height: 100vh;
+	max-height: 100vh;
+	padding: 0px 25px 0px 25px;
+	background-position: top;
+	background-repeat: repeat;
+	background-size: auto;
+}
+
+.container {
+	padding: 0px !important;
+}
+	
+form {
+	margin: 0 auto;
+	padding-top: 40px;
+}
+
+.tw-text-neutral-800 {
+    color: #764abc !important;
+}
+
+.row {
+	margin: 0 auto;
+}
+
+.col-md-9 {
+	text-align: center;
+}
+
+label, .form-group a {
+    font-weight: 300 !important;
+    letter-spacing: -0.5px;
+    color: #764abc !important;
+}
+
+button.btn.btn-info.btn-block {
+    border-radius: 50px !important;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+
+.company-logo {
+	position: relative;
+	bottom: 20px;
+}
+
+.authentication-form {
+	background: rgba(255, 255, 255, 0.4);
+	overflow: hidden;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: flex;
+	border-radius: 5px;
+	flex-wrap: wrap;
+	align-items: center;
+	-webkit-box-shadow: 0 2px 30px 2px rgba(0, 0, 0, .1) !important;
+	box-shadow: 0px 2px 30px 2px rgba(0, 0, 0, .1) !important;
+    padding: 0px !important;
+}
+
+.g-recaptcha {
+	display: inline-block;
+    padding-top: 20px;
+}
+
+h2 {
+	color: #666;
+	width: 25vw;
+	font-weight: 300;
+	font-size: 17px;
+	margin-bottom: 25px;
+}
+
+button:hover {
+	background: #805db7 !important;
+    border: none !important;
+}
+
+button:select {
+	background: #805db7d9 !important;
+    border: none !important;
+}
+
+.form-control:focus, .btn-primary, .btn-primary.focus, .btn-primary:focus {
+    --tw-ring-shadow: none !important;
+    --tw-ring-opacity: 0 !important;
+    border: none !important;
+}
+
+.btn.active.focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn:active:focus,
+.btn:focus {
+	outline: 0px;
+	outline-offset: 0px;
+}
+
+
+button {
+	height: 50px;
+	border-radius: 6px !important;
+	background: #764abc !important;
+	outline-color: transparent;
+}
+
+.line_toggler {
+	display: block;
+	width: 100%;
+	top: 0;
+	left: 0;
+	pointer-events: none;
+}
+
+form input:focus {
+	outline: none;
+}
+
+form input {
+	font-size: 17px !important;
+	padding: 8px;
+	border: none !important;
+	padding-left: 40px !important;
+	-webkit-border-radius: 0px !important;
+	border-radius: 0px !important;
+	caret-color: #444;
+	caret-color: #444;
+	background-color: rgba(0, 0, 0, 0.03) !important;
+	-moz-border-radius: 0px !important;
+	-ms-border-radius: 0px !important;
+	-o-border-radius: 0px !important;
+}
+
+form input[type="password"] {
+	font-size: 35px !important;
+}
+
+.form-group a {
+	margin: 0 auto;
+	padding-left: 14px;
+}
+
+
+.checkbox {
+	padding: 10px;
+	text-align: center;
+	color: #337ab7;
+	font-size: 16px;
+}
+
+body .form-group:last-child {
+	text-align: center;
+	padding: 20px;
+	font-size: 16px;
+}
+
+input#email,
+input#password {
+	border-radius: 50px !important;
+	padding: 0px 0px 0px 50px !important;
+}
+
+form input[type="password"] {
+	font-size: 15px !important;
+}
+
+form input[type="email"] {
+	font-size: 15px !important;
+}
+
+.fa {
+	font-size: 20px !important;
+	-webkit-text-stroke: 1px #f1f1f1;
+	margin-left: 10px;
+}
+
+form input:focus+.line_toggler::before {
+	width: calc(100% - 110px);
+	margin-left: 50px;
+	background: #764abc;
+}
+
+.fa-user-circle-o:before {
+	content: "\f007" !important;
+}
+
+.fa-key:before {
+	content: "\f13e" !important;
+}
+
+.icon_input_focus::before {
+	color: #764abc !important;
+}
+
+.login_icon::before {
+	color: #9e9e9e;
+	-webkit-transition: all .6s;
+	-o-transition: all .6s;
+	-moz-transition: all .6s;
+	transition: all .6s;
+}
+
+.login_icon {
+	position: relative;
+	font-size: 20px;
+	top: 28px;
+	padding-left: 10px;
+	float: left;
+}
+
+@media (max-width: 320px) {
+	.authentication-form {
+		height: 450px;
+	}
+}
+
+@media (max-width: 768px) {
+	form input {
+		font-size: 15px !important;
+	}
+	form input[type="password"] {
+		font-size: 31px !important;
+	}
+}
